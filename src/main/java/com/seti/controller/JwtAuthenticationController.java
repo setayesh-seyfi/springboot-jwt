@@ -1,4 +1,4 @@
-package com.javainuse.controller;
+package com.seti.controller;
 
 import java.util.Objects;
 
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javainuse.config.JwtTokenUtil;
-import com.javainuse.model.JwtRequest;
-import com.javainuse.model.JwtResponse;
+import com.seti.config.JwtTokenUtil;
+import com.seti.model.JwtRequest;
+import com.seti.model.JwtResponse;
 
 @RestController
 @CrossOrigin
