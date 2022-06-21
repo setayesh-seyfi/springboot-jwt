@@ -1,4 +1,4 @@
-package com.javainuse.model;
+package com.seti.model;
 
 import java.io.Serializable;
 

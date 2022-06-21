@@ -1,4 +1,4 @@
-package com.javainuse.service;
+package com.seti.service;
 
 import java.util.ArrayList;
 
@@ -13,9 +13,8 @@ public class JwtUserDetailsService implements UserDetailsService {
 
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-//		if ("javainuse".equals(username)) {
+
 		if ("setayesh".equals(username)) {
-//			return new User("javainuse", "$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6",
 			return new User("setayesh", "$2a$10$T3rQSNCSsINmUkoQW1/49OwAeVdYKa6To3xIdgSePnaZtvUjI2p8G",
 					new ArrayList<>());
 		} else {

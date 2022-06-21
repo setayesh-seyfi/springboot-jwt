@@ -1,4 +1,4 @@
-package com.javainuse.controller;
+package com.seti.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
